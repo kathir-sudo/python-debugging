@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Debugging Challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white antialiased">
+
+    <div id="app-container" class="min-h-screen bg-gray-900 text-gray-200 flex flex-col p-4 sm:p-6 lg:p-8">
+        <!-- Landing Page -->
+        <div id="landing-page" class="w-full flex-grow flex flex-col justify-center items-center hidden"></div>
+
+        <!-- Challenge Page -->
+        <div id="challenge-page" class="w-full hidden"></div>
+        
+        <!-- Submitting Page -->
+        <div id="submitting-page" class="w-full flex-grow flex flex-col justify-center items-center hidden"></div>
+
+        <!-- Results Page -->
+        <div id="results-page" class="w-full flex-grow flex flex-col justify-center items-center hidden"></div>
+
+        <!-- Admin Page -->
+        <div id="admin-page" class="w-full hidden"></div>
+    </div>
+
+    <!-- Prism JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    
+    <!-- Chart.js for Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Main App Script -->
+    <script src="script.js"></script>
+</body>
+</html>
